@@ -16,6 +16,9 @@ public class raten2 {
         }else {
             System.out.println("the number to guess must be between 1 and 100");
         }
+}
+
+
 
 
     public static void SelbstRaten() {
@@ -25,7 +28,7 @@ public class raten2 {
         int nextNumber = scanner. nextInt () ;
         while ( nextNumber != numberToGuess ) {
             if (nextNumber < numberToGuess) {
-		    B
+		
                 System.out.println("The number must be bigger then  " + nextNumber);
                 nextNumber = scanner.nextInt() ;
             } else if (nextNumber > numberToGuess){
